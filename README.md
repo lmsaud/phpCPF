@@ -5,6 +5,7 @@ PHP class used to check if a given CPF number is valid and also get the brazilia
 ## Usage
 
 ```
+require_once "CPF.php";
 $cpf = new CPF(PUT_CPF_DIGITS_HERE);
 if($cpf->isValid()) {
   echo "CPF is OK";
